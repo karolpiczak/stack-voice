@@ -1,0 +1,26 @@
+name: voice
+dependencies:
+  - autopep8
+  - conda-forge::libsndfile
+  - conda-forge::sox
+  - cudatoolkit=10.0.130
+  - ffmpeg
+  - hcc::libsamplerate
+  - jupyterlab
+  - matplotlib=3.1.1
+  - numba=0.48.0
+  - numpy=1.17.4
+  - pandas=0.25.3
+  - pip=19.3.1
+  - python=3.7
+  - pytorch=1.3.1
+  - scikit-learn=0.22
+  - torchvision=0.4.2
+  - pip:
+      - librosa==0.7.1
+      - mlflow
+      - pillow==6.2.2
+      - seaborn
+      - SoundFile==0.10.*
+      - tqdm
+      - wandb
