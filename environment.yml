@@ -20,6 +20,7 @@ dependencies:
       - librosa==0.7.1
       - mlflow
       - pillow==6.2.2
+      - pqdm
       - pydub
       - pytest
       - seaborn
