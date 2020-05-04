@@ -20,8 +20,10 @@ dependencies:
       - librosa==0.7.1
       - mlflow
       - pillow==6.2.2
+      - pydub
       - pytest
       - seaborn
       - SoundFile==0.10.*
       - tqdm
+      - unidecode
       - wandb
