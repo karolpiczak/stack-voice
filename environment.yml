@@ -1,6 +1,7 @@
 name: voice
 dependencies:
   - autopep8
+  - cffi=1.14.0
   - conda-forge::libsndfile
   - conda-forge::sox
   - cudatoolkit=10.0.130
@@ -17,13 +18,16 @@ dependencies:
   - scikit-learn=0.22
   - torchvision=0.4.2
   - pip:
+      - dirhash
       - librosa==0.7.1
       - mlflow
       - pillow==6.2.2
+      - plotly
       - pqdm
       - pydub
       - pytest
       - seaborn
+      - setproctitle
       - SoundFile==0.10.*
       - tqdm
       - unidecode
