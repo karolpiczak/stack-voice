@@ -22,10 +22,12 @@ dependencies:
       - librosa==0.7.1
       - mlflow
       - pillow==6.2.2
+      - praat-parselmouth
       - plotly
       - pqdm
       - pydub
       - pytest
+      - pytz>=2017.2
       - seaborn
       - setproctitle
       - SoundFile==0.10.*
