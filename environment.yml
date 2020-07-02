@@ -18,9 +18,16 @@ dependencies:
   - scikit-learn=0.22
   - torchvision=0.4.2
   - pip:
+      - blessings
+      - colorama
+      - colour
+      - dash
       - dirhash
+      - funcy
+      - hickle
       - librosa==0.7.1
       - mlflow
+      - natsort
       - pillow==6.2.2
       - praat-parselmouth
       - plotly
@@ -33,4 +40,5 @@ dependencies:
       - SoundFile==0.10.*
       - tqdm
       - unidecode
+      - visdcc
       - wandb
